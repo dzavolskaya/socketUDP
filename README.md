@@ -1,5 +1,5 @@
 # UDP socket
-## Simple socket UDP protocol clent and server programs
+## Simple socket UDP protocol client and server programs
 The programs have to be launched simultaneously in order to communicate with each other.
 
 Socket connection is made through UDP protocol. User enters a message which is transformed based on the defined algorithm: the client splits the string S, assumed to be of length n, into two strings S1 and S2 that are of equal length n/2 if n is even, or of lengths (n + 1)/2 and (n − 1)/2 respectively if n is odd. 
